@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Valjak</title>
+</head>
+
+<body>
+
+    <div class="boja">
+        <h1>Program za računanje zapremine valjka</h1>
+
+        <div class="flex">
+
+            <div class="container">
+                <div>
+                    <label for="poluprecnik">Poluprecnik valjka: </label>
+                    <input type="number" id="poluprecnik" placeholder="Poluprecnik (cm) ">
+                </div>
+                <div>
+                    <label for="poluprecnik ">Visina valjka: </label>
+                    <input type="number" id="visina" placeholder="Visina (cm) ">
+                </div>
+                <div class="hidden" id="rezultat">Zapremina valjka je: <span id="span">100</span> cm<sup>3</sup> </div>
+                <button onclick="restart()">RESTART</button>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js "></script>
+</body>
+
+</html>
